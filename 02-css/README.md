@@ -5,5 +5,5 @@
 	- <a href="https://css-tricks.com/the-lengths-of-css/">Unidades</a>
 	- <a href="https://developer.mozilla.org/es/docs/Web/CSS/font">Fonts</a>
 	- <a href="http://www.colorzilla.com/gradient-editor/">CSS Gradients</a>
-	- <a href="https://css-tricks.com/almanac/properties/t/transition/"Transitions</a>
+	- <a href="https://css-tricks.com/almanac/properties/t/transition/">Transitions</a>
 	- <a href="https://css-tricks.com/almanac/properties/t/transform/">Transform</a>

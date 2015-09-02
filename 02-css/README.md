@@ -1,5 +1,6 @@
 - Temas
-- Links 
+- Links
+	- <a href="https://en.wikipedia.org/wiki/Document_type_declaration">Doctype</a>
 	- <a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a>
 	- <a href="https://developer.mozilla.org/es/docs/Web/CSS/Introducci%C3%B3n/Selectors">Selectores</a>
 	- <a href="https://css-tricks.com/the-lengths-of-css/">Unidades</a>

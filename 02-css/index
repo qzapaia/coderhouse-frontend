@@ -21,14 +21,5 @@ strong{
 	text-transform: uppercase;
 }
 .parrafos span{
-	color:yellow;
-}
-a{
-	font-size: 30px;
-}
-a.linkCopado{
-	color:olive;
-}
-a .adentro{
-	color:gray;
+	color:green;
 }

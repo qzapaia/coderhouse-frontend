@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	font-size: 30px;
+	color:black;
+}
+section{
+	padding: 20px 0;
+}
+.header{
+	background-color: gray;
+}
+
+.header .navegacion{
+	background-color: red;
+	height: 30px;
+	display: flex;
+	justify-content:space-between;
+}
+.header .subheader{
+	background:purple;
+}
+
+.header .subheader .logo{
+	background-color: #f00;
+}
+.header .subheader .buscador{
+	background-color: #763;
+}
+.header .subheader .links{
+	background-color: #AF8;
+}
+
+.intro{
+	background-color: #f98;
+	height:300px;
+
+}
+.highlights{
+
+	background-color: #123;
+	height:300px;
+}
+.recently-updated{
+	background-color: #4fd;
+	height:300px;
+
+}
+.most{
+	background-color: #987;
+	height:300px;
+
+}
+.getting{
+	background-color: #234;
+	height:300px;
+
+}
+
+.footer{
+	background-color: #F67;
+	height:300px;
+}

@@ -1,0 +1,59 @@
+body{
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	height: 300px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.clase-uno{
+	background-color: #f00;
+	width: 5%;
+}
+.clase-dos{
+	color: #f00;
+}
+.clase-tres{
+	font-size: 50px;
+}
+.clase-cuatro{
+	margin: 30px;
+	padding: 20px;
+	border:dotted 7px green;
+}
+
+.chico{
+	background:green;
+	width:10px;
+}
+#el-ultimo{
+	background-color: #ccc;
+}
+
+.articulo{
+	display: inline;
+}
+
+.fuente-grande{
+	background-color: yellow;
+}
+.fuente-grande > li{
+	display:inline-block;
+	margin:20px;
+	border:solid 4px;
+}

@@ -1,0 +1,138 @@
+/*
+ Regla Sagrada:
+
+ Dentro de un elemento de linea solo puedo tener otros elementos de linea. Si no el universo explota.
+*/
+
+
+/* OOOOO puedo cargarlo asi
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*/
+
+ul{
+	list-style: none;
+	padding:0;
+}
+
+.link-navegacion, .link-navegacion-simple{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	display:inline-block;
+	padding:10px 15px;
+}
+.link-navegacion:hover{
+	background-color: black;
+	cursor: pointer;
+}
+
+.boton-de-facebook{
+	font-size: 12px;
+	color:blue;
+}
+
+
+
+
+.header{}
+/*
+esta es otra forma de ser especifico
+.header .menu-superior{}
+*/
+
+/*@rojoPrincipal: #cb3837;*/
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.header-menu-superior{
+	/*
+	esto es una forma de centrar a los hijos
+	*/
+	
+	/*
+	display: flex;
+	justify-content:center;
+	*/
+
+	background-color: #cb3837;
+	height: 38px;
+	
+	/*
+		se dice "jait"
+	*/
+
+	/*
+	background-color: #CDE; == #CCDDEE 
+	background-color: #F00; == #FF0000 
+	*/
+
+	/* background-color: rgb(203, 56, 55);  */
+
+	/* esto tiene un canal alpha (opacidad) */
+	/*background-color: rgba(203, 56, 55, 0); */
+}
+
+.header-menu-superior-container{
+	max-width: 1180px;
+	margin:10px 5px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	/*font-family: 'open_sansbold';*/
+	/*
+	margin:10px; significa todas las dimensiones con 10 pixels de margen
+
+	margin:10px 5px; 
+		arriba y abajo tiene 10px;
+		izquierda y derecha tiene 5px;
+
+	margin:8px 7px 3px 2px; 
+		en sentido horario empezando por arriba
+
+	margin:8px 7px 3px (se repite 7px); 
+		en sentido horario empezando por arriba
+
+	lo mismo con padding y lo mismo con border
+	*/
+}
+/*
+
+.header-menu-superior a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+*/
+.report-list{
+	width:600px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.report-item{
+	display:inline-block;
+}
+.report-item i{
+	float: left;
+	height:60px;
+	font-size: 20px;
+}
+.report-item h2, .report-item p{
+	margin:0 0 0 20px;
+}
+
+
+.popular-packages{
+	display:flex;
+	flex-wrap: wrap;
+}
+.popular-packages-detail{
+	text-align: center;
+	width:33%;
+}
+.popular-packages-detail img{
+	width:100px;
+}

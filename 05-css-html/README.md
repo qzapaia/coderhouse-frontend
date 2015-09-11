@@ -1,0 +1,6 @@
+- Pseudo elementos
+- Fondos y Bordes
+- Diseño responsive
+- Mediaqueries
+- LESS
+- Position

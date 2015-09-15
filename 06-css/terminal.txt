@@ -1,0 +1,19 @@
+# donde estoy
+pwd
+
+# listar carpetas
+ls
+
+# navegar carpetas 
+cd nombre_de_carpeta
+
+# subir un nivel en las carpetas
+cd ..
+
+# crea una carpeta
+mkdir nombre_de_carpeta
+
+# crea un archivo
+touch nombre_de_archivo
+
+# tab autocompleta

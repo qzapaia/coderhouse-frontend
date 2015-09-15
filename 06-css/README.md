@@ -1,0 +1,10 @@
+- Git
+- Position
+- Transition
+- Gradients
+- Overflow
+- Responsive
+- Media Queries
+- Less
+- Bootstrap
+- Pseudo elementos

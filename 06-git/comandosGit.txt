@@ -1,0 +1,23 @@
+# van a saber que onda
+git status
+
+# para agregar archivos al repo
+git add nombre_del_archivo
+
+# para agregar todos los archivos
+git add .
+
+# para listar las versiones (commits)
+git log
+
+# para hacer una version
+git commit -am "primera version"  
+
+# para identificarse en git
+git config --global user.email "qzapaia@gmail.com"
+
+
+# para subir a github (en este caso)
+# en este caso origin significa github
+git push origin master
+

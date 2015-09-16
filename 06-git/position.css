@@ -1,0 +1,52 @@
+.fixed{
+	position: fixed;
+	background-color: red;
+	/*width: 100%;*/
+	/*bottom:10px;*/
+	height: 100px;
+	top:10px;
+	left: 20px;
+	right: 80px;
+
+	/*
+	position:static;
+	*/
+	z-index: 2;
+	opacity: .5;
+	/*transition:all;*/
+	transition:all 2s;
+	color:white;
+}
+
+.fixed:hover{
+	right:10px;
+	height:200px;
+	background-color: #fff;
+	color:black;
+}
+
+.absoluto{
+	position:absolute;
+	top:10px;
+	left:10px;
+	height:30px;
+	width:30px;
+	background-color: yellow;
+	opacity:.7;
+}
+
+.padre-de-absoluto{
+	position:relative;
+}
+
+.laOtra{
+	left:300px;
+	background-color: green;
+	z-index: 1;
+}
+.comun{
+	padding: 40px;
+	border: solid 3px black;
+	background-color: blue;
+	color:white;
+}

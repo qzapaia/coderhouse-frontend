@@ -21,3 +21,6 @@ git config --global user.email "qzapaia@gmail.com"
 # en este caso origin significa github
 git push origin master
 
+# para bajar la última versión (sincronizar) 
+git pull origin master
+

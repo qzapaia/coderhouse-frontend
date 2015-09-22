@@ -1,0 +1,92 @@
+.hola{
+	display: none;
+}
+
+@media (min-width: 600px) {
+  .hola{
+	display: block;
+  }
+}
+
+.otroBoton:before{
+	content: "\f241";
+	font-family: "FontAwesome";
+}
+
+@media (max-width: 600px) {
+  .otroBoton{
+	background-color: red;
+  }
+}
+
+.data{
+	position: relative;
+	padding-left: 35px;
+}
+
+.data:before{
+	content: "";
+	background-color: gray;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.container{
+	position: relative;
+	background-color: yellow;
+	height: 300px;
+}
+
+.move{
+	/*transition:left 1s;*/
+	/*all impacta a todas las propiedades*/
+	transition-property:all;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+	-webkit-opacity:1;
+	
+	opacity:1;
+
+	position: absolute;
+	width: 200px;	
+	height: 200px;	
+	background-color: red;
+	left: 10px;
+	font-size: 30px;
+	text-shadow: 2px -24px 11px rgba(150, 81, 150, 1);
+	
+	/* elimina el excedente */
+	overflow: hidden;
+	/* trata el excedente de texto */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button{
+	border:none;
+	background-color: green;
+	padding: 40px;
+	font-size: 30px;
+	position: relative;
+}
+.button:after{
+	content: " Hola soy el pseudo elemento";
+	background-color: red;
+}
+.button:before{
+	content: "before";
+	position: absolute;
+	background-color: violet;
+	left: -10px;
+	top: -10px;
+}
+
+.move-final{
+	left: 300px;
+	background-color: blue;
+}
